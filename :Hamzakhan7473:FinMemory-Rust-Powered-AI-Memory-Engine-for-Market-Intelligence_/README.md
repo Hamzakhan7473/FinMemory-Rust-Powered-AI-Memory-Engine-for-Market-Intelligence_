@@ -56,6 +56,10 @@ This repository hosts a modular platform for ingesting, enriching, and retrievin
 > **Note**  
 > FinMemory is a personal research project exploring long-term memory architectures for financial AI. It is not a commercial product, pricing plan, or production service.
 
+## License
+
+This project is released under the [MIT License](LICENSE) © 2025 Hamza Khan.
+
 ## Repository Layout
 
 - `docs/` – Architecture notes, specs, and onboarding guides.
