@@ -2,6 +2,66 @@
 
 This repository hosts a modular platform for ingesting, enriching, and retrieving market intelligence through a hybrid memory engine. The structure mirrors the end-to-end data and reasoning flow.
 
+## Vision
+
+**FinMemory** is a memory-powered AI brain for financial institutions that helps analysts, traders, and funds remember, reason, and act across oceans of market data.
+
+## Problem
+
+- Market data, filings, and analyst notes live in siloed systems that do not talk to each other.
+- Research teams re-discover old insights; repeat analyses consume 30–40% of their time.
+- Traditional LLMs forget context beyond a single session, creating memoryless intelligence.
+- Compliance teams struggle to explain how an insight or recommendation was formed.
+
+## Solution Overview
+
+- **Rust-based Memory Core** – ultra-fast, concurrent persistence with lineage tracking (source → insight → decision).
+- **Neo4j Graph Provenance** – maps how each insight was derived, including data inputs, models, and human contributors.
+- **ChromaDB + RAG** – embeds filings, earnings calls, transcripts, and research notes for retrieval-augmented reasoning.
+- **Supermemory + MemMachine** – provides episodic recall so AI agents remember prior analyses and market regimes.
+- **React Dashboard** – gives quants and PMs a visualization surface for reasoning chains, comparisons, and chat with the firm’s knowledge base.
+
+## Business Model
+
+| Segment | Value Delivered | Monetization |
+| --- | --- | --- |
+| Hedge Funds | 10× faster research cycles, persistent context | Per-seat SaaS ($2k–10k/month) |
+| Investment Banks | Deal memory and compliance explainability | Enterprise license or private cloud |
+| Retail Brokers | Explainable AI trading assistants | API integrations with per-call pricing |
+| Research Startups | Memory + LLM API for bespoke analytics | Usage-based API tiers |
+
+## Tech Stack Advantage
+
+| Layer | Tech | Purpose |
+| --- | --- | --- |
+| Core | Rust | Speed, concurrency, safety for memory persistence |
+| Ingestion | FastAPI | Real-time capture of market and user data |
+| Storage | ChromaDB + Neo4j | Hybrid vector + graph context storage |
+| Orchestration | LangChain + MemMachine | Context persistence, agent coordination, RAG |
+| Frontend | React (Vite) | Insight visualization and analyst workflows |
+| Models | OpenAI, Claude, Gemini, local LLMs | Multi-model reasoning and summarization |
+
+## Market Opportunity
+
+- Financial AI market projected to exceed $40B by 2030.
+- Buy-side research and quant teams spend $10B+ annually on data feeds and analytics.
+- Regulatory demand for explainability and lineage is accelerating adoption of memory-first systems.
+
+## Competitive Edge
+
+| Competitor | Focus | FinMemory Advantage |
+| --- | --- | --- |
+| Kensho (S&P Global) | Query-first analytics | Adds persistent memory graph and explainability |
+| AlphaSense | NLP search | Provides episodic intelligence and lineage-aware retrieval |
+| BloombergGPT | Model-centric | Overlays a memory and provenance layer on top of models |
+| Palantir Foundry | Data fusion platform | Rust-speed memory engine purpose-built for AI workloads |
+
+## Why Now
+
+- Rising compliance scrutiny on AI recommendations demands full lineage.
+- LLM proliferation highlights the limits of short-term context windows.
+- Financial firms need tools that combine speed, accuracy, and explainability to stay competitive.
+
 ## Repository Layout
 
 - `docs/` – Architecture notes, specs, and onboarding guides.
