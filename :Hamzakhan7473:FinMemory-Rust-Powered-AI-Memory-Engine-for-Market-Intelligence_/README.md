@@ -21,15 +21,6 @@ This repository hosts a modular platform for ingesting, enriching, and retrievin
 - **Supermemory + MemMachine** – provides episodic recall so AI agents remember prior analyses and market regimes.
 - **React Dashboard** – gives quants and PMs a visualization surface for reasoning chains, comparisons, and chat with the firm’s knowledge base.
 
-## Business Model
-
-| Segment | Value Delivered | Monetization |
-| --- | --- | --- |
-| Hedge Funds | 10× faster research cycles, persistent context | Per-seat SaaS ($2k–10k/month) |
-| Investment Banks | Deal memory and compliance explainability | Enterprise license or private cloud |
-| Retail Brokers | Explainable AI trading assistants | API integrations with per-call pricing |
-| Research Startups | Memory + LLM API for bespoke analytics | Usage-based API tiers |
-
 ## Tech Stack Advantage
 
 | Layer | Tech | Purpose |
@@ -61,6 +52,9 @@ This repository hosts a modular platform for ingesting, enriching, and retrievin
 - Rising compliance scrutiny on AI recommendations demands full lineage.
 - LLM proliferation highlights the limits of short-term context windows.
 - Financial firms need tools that combine speed, accuracy, and explainability to stay competitive.
+
+> **Note**  
+> FinMemory is a personal research project exploring long-term memory architectures for financial AI. It is not a commercial product, pricing plan, or production service.
 
 ## Repository Layout
 
